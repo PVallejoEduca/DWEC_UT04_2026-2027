@@ -1,5 +1,3 @@
-![Portada de DWEC - UT04](./assets/repo-cover-dwec-2026-2027.png)
-
 # DWEC UT04: Programación asíncrona y obtención de datos.
 Apuntes del módulo de DWEC del ciclo de grado superior de DAW.
 
