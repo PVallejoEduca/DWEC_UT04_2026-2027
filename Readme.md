@@ -1,3 +1,5 @@
+![Portada de DWEC - UT04](./assets/repo-cover-dwec-2026-2027.png)
+
 # DWEC UT04: Programación asíncrona y obtención de datos.
 Apuntes del módulo de DWEC del ciclo de grado superior de DAW.
 
@@ -20,4 +22,3 @@ Recopilados, resumidos y traducidos de otros apuntes disponibles en la red:
 * Lenguaje JavaScript - [Enlace](https://lenguajejs.com/javascript/)
 * MDN JavaScript - [Enlace](https://developer.mozilla.org/es/docs/Web/JavaScript)
 * JQuery - [Enlace](https://www.arkaitzgarro.com/jquery/)
-
