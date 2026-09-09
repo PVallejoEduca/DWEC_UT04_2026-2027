@@ -35,7 +35,7 @@ El último `console.log` del código se ejecuta primero (forma parte del flujo p
 
 ### Ejemplo del dado
 
-Vamos a utilizar el ejemplo del lanzamiento de 10 dados que explicamos en el capítulo de [Asincronía](./05_Asincronia.md), para adaptarlo a funciones `callbacks`.
+Vas a utilizar el ejemplo del lanzamiento de 10 dados que explicamos en el capítulo de [Asincronía](./05_Asincronia.md), para adaptarlo a funciones `callbacks`.
 
 ```js
 const doTask = (iterations, callback) => {

@@ -203,7 +203,7 @@ Veamos un ejemplo y analicemoslo con las herramientas de depuración.
   };
 ```
 
-En la parte superior derecha podeis fijaros como activando la visualización de `XHR` podemos ver las peticiones que se han realizado. En las diferentes pestañas vereis por ejemplo la respuesta obtenida de esa petición.
+En la parte superior derecha puedes fijarte en cómo activando la visualización de `XHR` podemos ver las peticiones que se han realizado. En las diferentes pestañas verás por ejemplo la respuesta obtenida de esa petición.
 
 <p align="center"> 
 <img src="./img/GET-tools.png" width="90%" height="60%" style="display: block; margin: 0 auto" />
@@ -266,7 +266,7 @@ Y si nos fijamos en la respuesta (en este caso concreto), se nos devuelve los va
 > #### *Tener en cuenta que ...*
 > Al estar realizando una petición `POST` estamos intentando modificar/añadir/actualizar algun valor en el lado del servidor. Pero en los ejemplo de arriba estamos utilizando una API que no nos pertenece, por lo que no sabemos como se estan procesando los datos en el lado del servidor.
 >
-> Si quereis tener control de lo que se esta haciendo en la parte del servidor podeis montaros un servidor web con XAMPP (ya que incluye PHP y comprobar el comportamiento manipulando los datos que se devuelven).
+> Si quieres tener control de lo que se esta haciendo en la parte del servidor puedes montarte un servidor web con XAMPP (ya que incluye PHP y comprobar el comportamiento manipulando los datos que se devuelven).
 > Despues de instalar XAMP, crear un fichero index.php y añadir el siguiente código:
 > ```php
 > <?php
@@ -282,7 +282,7 @@ Y si nos fijamos en la respuesta (en este caso concreto), se nos devuelve los va
 >?>
 > ```
 >
-> Este fichero debereis ubicarlo en la carpeta `htdocs` de XAMP y despues ya estareis en condiciones de hacer una petición a vuestro servidor web. Recordad que XAMP seguramente este escuchando en el puerto 80 y vuestro LiveServer de VSCode en algun otro puerto (5501 o parecido). Tendreis que añadir toda la URL correctamente.
+> Este fichero deberás ubicarlo en la carpeta `htdocs` de XAMP y despues ya estarás en condiciones de hacer una petición a tu servidor web. Recuerda que XAMP seguramente este escuchando en el puerto 80 y tu LiveServer de VSCode en algun otro puerto (5501 o parecido). Tendrás que añadir toda la URL correctamente.
 > ```js
 > let xhr = new XMLHttpRequest();
 > xhr.open('POST', 'https://localhost/index.php');
@@ -359,4 +359,4 @@ xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
 xhr.send(json);
 ```
 
-> Aqui podeis consultar un pequeño acticulo donde comenta las diferentes formas de envio de información y los tipos de datos que son soportados para cada `Content-Type`. [Enalce](https://medium.com/@codingscenes/application-x-www-form-urlencoded-and-multipart-form-data-are-two-different-formats-for-3678a10073e9)
+> Aqui puedes consultar un pequeño acticulo donde comenta las diferentes formas de envio de información y los tipos de datos que son soportados para cada `Content-Type`. [Enalce](https://medium.com/@codingscenes/application-x-www-form-urlencoded-and-multipart-form-data-are-two-different-formats-for-3678a10073e9)

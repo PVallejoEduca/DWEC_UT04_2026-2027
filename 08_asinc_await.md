@@ -17,7 +17,7 @@ Con `async/await` seguimos manejando promesas, sin embargo, hay ciertos cambios 
 * No encadenamos mediante `.then()`, sino que usamos un sistema más tradicional.
 * Abandonamos el modelo **no bloqueante** y pasamos a uno **bloqueante**.
 
-Vamos a modificar el fragmento de código anterior, para manejar la que devuelve el `fetch()`, pero en lugar de gestionarla con `.then()`, lo haremos con `await`. Simplemente, cualquier que tengamos, le añadimos la palabra clave await antes.
+Vas a modificar el fragmento de código anterior para manejar la promesa que devuelve `fetch()`, pero en lugar de gestionarla con `.then()`, lo harás con `await`. Para ello, añade la palabra clave `await` antes de la expresión que devuelve la promesa.
 
 ```js
 const response = await fetch("/robots.txt");
@@ -29,7 +29,7 @@ console.log("Código síncrono.");
 
 La palabra clave `await` recibe una Promesa y la convierte en un valor de retorno (o genera una excepción en caso de error). Cuando usamos `await`, JavaScript **esperará hasta que finalice** la Promesa. Si se completa con éxito (el término utilizado es fulfilled), el valor obtenido es retornado. Si la Promesa es rechazada (el término utilizado es rejected), se retorna el error arrojado por la excepción.
 
-Ahora, vamos a introducir este fragmento de código dentro de una función llamada request(). 
+Ahora, vas a introducir este fragmento de código dentro de una función llamada request(). 
 
 ```js
 function request() {
@@ -59,7 +59,7 @@ async function request() {
 await request();
 ```
 
-Sin embargo, vamos a pararnos un poco a pensar esto desde las bases. Definamos dos funciones básicas exactamente iguales, ambas devuelven lo mismo, pero una es **síncrona** y otra **asíncrona**:
+Sin embargo, vas a pararte un poco a pensar esto desde las bases. Define dos funciones básicas exactamente iguales, ambas devuelven lo mismo, pero una es **síncrona** y otra **asíncrona**:
 
 ```js
 function sincrona() { return 42; }
@@ -84,7 +84,7 @@ request();
 
 ## Ejemplo del dado
 
-Volvamos al ejemplo que hemos visto antes. Recordemos que la función `doTask()` realiza 10 lanzamientos de un dado y nos devuelve los resultados obtenidos o detiene la tarea si se obtiene un 6. La implementación de la función sufre algunos cambios, simplificándose considerablemente.
+Vuelve al ejemplo que hemos visto antes. Recordemos que la función `doTask()` realiza 10 lanzamientos de un dado y nos devuelve los resultados obtenidos o detiene la tarea si se obtiene un 6. La implementación de la función sufre algunos cambios, simplificándose considerablemente.
 
 * En primer lugar, añadimos la palabra clave **async** antes de los parámetros de la arrow function.
 * En segundo lugar, desaparece cualquier mención a promesas, se devuelven directamente los objetos, ya que al ser una función **async** se devolverá todo envuelto en una `promise`:

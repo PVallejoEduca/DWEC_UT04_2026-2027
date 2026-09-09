@@ -33,11 +33,11 @@ $.each($('h2'), function() {
 }); 
 ```
 
-> Para obtener mas información acerca del uso básico de JQuery podeis consultar el siguiente [enlace](https://www.arkaitzgarro.com/jquery/capitulo-3.html).
+> Para obtener mas información acerca del uso básico de JQuery puedes consultar el siguiente [enlace](https://www.arkaitzgarro.com/jquery/capitulo-3.html).
 
-> JQuery tambien nos facilita la gestión de eventos con sus metodos mas avreviados, podeis consultar mas información acerca de eventos en JQuery en el siguiente [enlace](https://www.arkaitzgarro.com/jquery/capitulo-5.html).
+> JQuery tambien nos facilita la gestión de eventos con sus metodos mas avreviados, puedes consultar mas información acerca de eventos en JQuery en el siguiente [enlace](https://www.arkaitzgarro.com/jquery/capitulo-5.html).
 
-> JQuery tambien nos facilita la aplicación de efectos a elementos del HTML con sus metodos mas avreviados, podeis consultar mas información acerca de eventos en JQuery en el siguiente [enlace](https://www.arkaitzgarro.com/jquery/capitulo-6.html).
+> JQuery tambien nos facilita la aplicación de efectos a elementos del HTML con sus metodos mas avreviados, puedes consultar mas información acerca de eventos en JQuery en el siguiente [enlace](https://www.arkaitzgarro.com/jquery/capitulo-6.html).
 
 > #### *Tener en cuenta que ...*
 > JQuery es una libreria desarrolada para funcionar encima del motor de JS, es por eso que para poder utilizarlo en nuestros scripts tendremos que añadir la libreria en si. Se puede descargar a la máquina local o enlazarlo desde algun CDN en internet. Podeis consultar este [enlace](https://desarrolloweb.com/articulos/pasos-para-ejecutar-jquery.html) para saber más.
@@ -92,7 +92,7 @@ Los métodos que provee la librería son:
 * $.getScript - Añade un script a la página. [Enlace](hhttps://api.jquery.com/jQuery.getScript/)
 * $.getJSON - Realiza una petición GET a una URL provista y espera que un dato JSON sea devuelto. [Enlace](https://api.jquery.com/jQuery.getJSON/)
 
-Aqui teneis algunos ejemplos sencillos.
+Aqui tienes algunos ejemplos sencillos.
 
 ```js
 //Enviar datos con POST

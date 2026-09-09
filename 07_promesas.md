@@ -27,7 +27,7 @@ Las promesas en Javascript se representan a través de un `object`, y cada prome
 | `.then(function resolve,function reject)` | Método equivalente a las dos anteriores en el mismo `.then()`. |
 | `.finally(function end)` | Ejecuta la función callback `end` tanto si se cumple como si se rechaza. |
 
-Más adelante veremos, que a diferencia del apartado anterior donde se utilizaban solamente funciones callback, en este enfoque se tiende a **no anidar promesas**, evitando así el famoso Callback Hell, y haciendo el código mucho más legible.
+Más adelante verás, que a diferencia del apartado anterior donde se utilizaban solamente funciones callback, en este enfoque se tiende a **no anidar promesas**, evitando así el famoso Callback Hell, y haciendo el código mucho más legible.
 
 ## Consumir promesas
 
@@ -90,18 +90,18 @@ console.log("Código síncrono")
 
 Aunque el `console.log("Código asíncrono")` figure unas líneas antes del `console.log("Código síncrono")`, se mostrará más tarde. Esto ocurre porque el `console.log()` del interior del `.then()` no ocurre inmediatamente, y al no ser bloqueante, se continua con el resto del programa hasta que se ejecute, que lo retomará.
 
-> Más adelante veremos que manejar promesas con `async/await` si que es **bloqueante** y funciona de forma diferente al `.then()`, que es **no bloqueante**.
+> Más adelante verás que manejar promesas con `async/await` si que es **bloqueante** y funciona de forma diferente al `.then()`, que es **no bloqueante**.
 
 ## Crear promesas
 
 En los apartados anteriores hemos aprendido que son las promesas y hemos visto como consumirlas utilizando `.then()`. Ahora nos queda la cuestión opuesta, aprender a **crear** o **implementar** funciones que devuelvan promesas que puedan consumirse posteriormente.
 
-Volvamos al ejemplo del dado pero en este caso utilizando promesas. Observa que creamos un nuevo objeto `promise` que «envuelve» toda la función `doTask()`.
+Vuelve al ejemplo del dado pero en este caso utilizando promesas. Observa que creamos un nuevo objeto `promise` que «envuelve» toda la función `doTask()`.
 
 Al `new Promise()` se le pasa por parámetro una función con dos **callbacks**:
 
-* El primer callback, `resolve`, lo utilizaremos cuando se cumpla la promesa.
-* El segundo callback, `reject`, lo utilizaremos cuando se rechace la promesa.
+* El primer callback, `resolve`, lo utilizarás cuando se cumpla la promesa.
+* El segundo callback, `reject`, lo utilizarás cuando se rechace la promesa.
 
 ```js
 const doTask = (iterations) => {

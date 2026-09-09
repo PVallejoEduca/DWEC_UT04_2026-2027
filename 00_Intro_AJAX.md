@@ -46,7 +46,7 @@ Un archivo JSON mínimo suele tener la siguiente sintaxis:
 
 Sin embargo, su contenido puede ser simplemente un `string`, un `boolean`, un `number`, un o incluso un `null`, sin embargo, lo más habitual es que parta siendo un `array` o un `object` . Puedes comprobar en JSONLint si algo concreto es un JSON válido o no.
 
-Este ejemplo anterior simplemente es un objeto vacío `{}`. Un archivo JSON, suele contener mucha información almacenada. Vamos a modificar ese objeto vacío para que contenga más datos para ejemplificarlo:
+Este ejemplo anterior simplemente es un objeto vacío `{}`. Un archivo JSON, suele contener mucha información almacenada. Vas a modificar ese objeto vacío para que contenga más datos para ejemplificarlo:
 
 ```js
 {
@@ -234,4 +234,4 @@ Esto nos permitira tener separados los datos del código JS para no dificultar l
 
 Mas adelante profundizaremos en el conepto de la API de fetch y sus metodos como el de `res.json()` que lo que hace es parsear la respuesta y convertirla a un `object` de JS.
 
-Pero por si alguien tiene la curiosisdad de de saber la diferencia entre `.parse()` y `.json()` os dejo este [enlace](https://stackoverflow.com/questions/48295439/json-parse-vs-json) en el que hablan de las diferencias y de cuando usar uno y otro.
+Pero si tienes curiosidad por conocer la diferencia entre `.parse()` y `.json()` te dejo este [enlace](https://stackoverflow.com/questions/48295439/json-parse-vs-json) en el que hablan de las diferencias y de cuando usar uno y otro.

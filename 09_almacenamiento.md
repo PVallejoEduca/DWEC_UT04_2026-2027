@@ -2,7 +2,7 @@
 
 ## Almacenamiento en el navegador
 
-Los navegadores pueden almacenar cierta cantidad de información y de manera temporal o permanente. Vamos a ver la diferencia que existen entre las conocidisimas `coockies`, y los `localStorage` y `sessionStorage`.
+Los navegadores pueden almacenar cierta cantidad de información y de manera temporal o permanente. Vas a ver la diferencia que existen entre las conocidisimas `coockies`, y los `localStorage` y `sessionStorage`.
 
 ## Las coockies
 
@@ -181,4 +181,4 @@ Podemos resumir la diferencia entre la utilización de `coockies` y `localStorag
 <img src="./img/pros_cons.png" width="90%" height="60%" style="display: block; margin: 0 auto" />
 </p>
 
-Tambien podeis consultar ventajas y desventajas de su utilización en diferentes entornos en [enlaces](http://www.drauta.com/localstorage-y-cookies-diferencias-y-uso) como este.
+Tambien puedes consultar ventajas y desventajas de su utilización en diferentes entornos en [enlaces](http://www.drauta.com/localstorage-y-cookies-diferencias-y-uso) como este.

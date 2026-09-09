@@ -8,7 +8,7 @@
 let promesa = fetch(url, [options])
 ```
 
-> Una `Promise` (promesa en castellano) es un objeto que representa la terminación o el fracaso de una operación asíncrona. Esencialmente, una promesa es un objeto devuelto al cual se adjuntan funciones `callback`, en lugar de pasar `callbacks` a una función. Lo veremos en un [tema]() mas adelante.
+> Una `Promise` (promesa en castellano) es un objeto que representa la terminación o el fracaso de una operación asíncrona. Esencialmente, una promesa es un objeto devuelto al cual se adjuntan funciones `callback`, en lugar de pasar `callbacks` a una función. Lo verás en un [tema]() mas adelante.
 
 `fetch()` devolverá una `promise` que será **aceptada** cuando reciba una respuesta y sólo será **rechazada** si hay un fallo de red o si por alguna razón no se pudo completar la petición.
 
@@ -21,7 +21,7 @@ fetch("/robots.txt")
     });
 ```
 
-Al método `.then()` se le pasa una función callback donde su parámetro **response** es el objeto de respuesta de la petición que hemos realizado. En su interior realizaremos la lógica que queramos hacer con la respuesta a nuestra petición.
+Al método `.then()` se le pasa una función callback donde su parámetro **response** es el objeto de respuesta de la petición que hemos realizado. En su interior escribirás la lógica que quieras ejecutar con la respuesta a tu petición.
 
 ### Opciones de `fetch()`
 

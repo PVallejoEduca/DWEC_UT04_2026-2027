@@ -4,7 +4,7 @@
 
 A la hora de trabajar con AJAX debemos tener en cuenta una serie de requisitos previos, necesarios para la programación con esta metodología.
 
-Hasta este momento, nuestras aplicaciones de JavaScript no necesitaban de un servidor web para funcionar, salvo en el caso de querer enviar los datos de un formulario y almacenarlos en una base de datos. Es más, todas las aplicaciones de JavaScript que has realizado, las has probado directamente abriéndolas con el navegador o haciendo doble click sobre el fichero `.html` (aunque la mayoria de vosotros seguro que tenéis el plugin de liveServer para VSCode).
+Hasta este momento, nuestras aplicaciones de JavaScript no necesitaban de un servidor web para funcionar, salvo en el caso de querer enviar los datos de un formulario y almacenarlos en una base de datos. Es más, todas las aplicaciones de JavaScript que has realizado, las has probado directamente abriéndolas con el navegador o haciendo doble click sobre el fichero `.html` (aunque seguramente ya tienes el plugin de liveServer para VSCode).
 
 Este servidor lo que va a hacer es proveer de datos que no están en la misma maquina donde estamos ejecutando el navegador e interprentado la pagina web.
 
